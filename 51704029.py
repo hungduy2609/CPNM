@@ -1,3 +1,8 @@
+didi
+
+
+
+
 import numpy as np 
 a = np.array([1,4,5,6])
 print('one dim:\n',a)
