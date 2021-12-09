@@ -1,5 +1,4 @@
-Hưng Duy đã sửa file
-import numpy as np
+import numpy as np 
 a = np.array([1,4,5,6])
 print('one dim:\n',a)
 
@@ -27,7 +26,7 @@ a3 =  np.array([[[1,2,3,4],[3,4,5,6],[3,4,5,6]],[[2,3,4,4],[2,3,4,5],[2,3,4,5]]]
 print('\n  create a 3-dim array and show its shape:',a3.shape)
 
 a4 = [1,2,3]
-print('\n list ',a4)
+print('\n list ',a4) 
 arr = np.array(a4)
 print('\n convert a -> :' ,arr)
 
@@ -40,6 +39,6 @@ print('\n create an 1-dim array [1 2 .. 100]',a)
 print('\n get sub-array containing 20 first elements:',a[:20])
 print('\n get sub-array containing 20 last elements:',a[80:-1])
 
-_A = [ [1, 2, 3, 4, 5], [6, 7, 8, 9 , 10] ]
-A = np.array(_A)
+_A = [ [1, 2, 3, 4, 5], [6, 7, 8, 9 , 10] ] 
+A = np.array(_A) 
 print('create an matrix A like:',A)
